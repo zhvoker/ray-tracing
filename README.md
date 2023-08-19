@@ -8,7 +8,7 @@ after:
 go to the build directory:
 <pre><code>cd build</code></pre>
 cmake and make:
-<pre><code>cmake ..
+<pre><code>cmake -G "MinGW Makefiles" ..
 mingw32-make</code></pre>
 go to the bin directory:
 <code><pre>cd ../bin</code></pre>
